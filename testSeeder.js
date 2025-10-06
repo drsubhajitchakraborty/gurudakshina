@@ -37,7 +37,7 @@ async function runSeeder() {
     return;
   }
 
-  // Test login
+  // Test login 
   try {
     const loginRes = await axios.post(BASE_URL + '/login', {
       username: testUser.username,
